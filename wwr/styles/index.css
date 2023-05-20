@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=RocknRoll+One&display=swap');
+
 
 body {
   max-width : 1600px;
@@ -44,7 +44,7 @@ body {
 } 
 body {
   background-color: #fcfbfb;
-  font-family: Roboto, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif, Arial, sans-serif;
   font-size: 22px;
   margin: 0;
   padding: 0;
