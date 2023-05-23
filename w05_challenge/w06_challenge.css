@@ -1,0 +1,19 @@
+body {
+    background-color : #fcfbfb;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 300px;
+      }
+      p {
+        font-size: 40px;
+        color:rgb(252, 6, 6)
+      }     
+
+/* Grid*/
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 
+} 
