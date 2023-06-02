@@ -12,6 +12,9 @@ body {
   header {
   background-color : rgb(20, 30, 13, 0.7);
   }
+  h1 {
+    color: azure;
+  }
   nav a:hover {
   background-color : black;
   }
