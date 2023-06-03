@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=RocknRoll+One&display=swap');
 
-body {
+#content { 
   max-width : 1600px;
-  margin : 0 auto;
+  margin : 0 auto; }
+body {
+ 
   padding : 4em;
   font-size : 18px;
   text-align : center;
@@ -26,6 +29,10 @@ body {
   .icon {
   width : 80px;
   }
+
+  .logo {
+    width: 80 px;
+  }
   nav a {
   text-align : center;
   color : #fcfbfb;
@@ -38,7 +45,7 @@ body {
   text-decoration : underline;
   }
   .home-title {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: 'Roboto''RocknrRoll';
     font-size: 2em;
 }
 .msg {
@@ -47,12 +54,13 @@ body {
 } 
 body {
   background-color: #fcfbfb;
-  font-family: Arial, Helvetica, sans-serif, Arial, sans-serif;
+  font-family: 'Roboto''RocknrRoll';
   font-size: 22px;
   margin: 0;
   padding: 0;
 }
 h2 {
+  font-family: 'Roboto''RocknrRoll';
   margin: 0;
 }
 nav a {
