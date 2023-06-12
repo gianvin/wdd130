@@ -6,6 +6,7 @@ header {
 image {
     width: 100px;
     height: 200px;
+    align-items: center;
 }
 main {
  background: rgba(9, 9, 9, 0.7);
@@ -15,11 +16,13 @@ h2 {
     background: rgba(242, 245, 241, 0.7); 
     font-size: 15px; 
     color:  rgba(50, 114, 243, 0.7); 
+    text-align: center;
 }
 h3 {
     background: rgba(242, 245, 241, 0.7); 
     font-size: 25 px;
     color: rgba(9, 9, 9, 0.7);
+    text-align: center;
     
 }
 footer {
