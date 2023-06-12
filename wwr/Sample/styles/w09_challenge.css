@@ -10,6 +10,7 @@ image {
 main {
  background: rgba(9, 9, 9, 0.7);
 }
+
 h2 {
     background: rgba(242, 245, 241, 0.7); 
     font-size: 15px; 
@@ -25,6 +26,7 @@ footer {
     background: rgba(9, 9, 9, 0.7);
     font-size: 5px;
     color:rgba(242, 245, 241, 0.7); 
+    text-align: center;
 }
 sup {
     background: rgba(96, 167, 243, 0.7); 
