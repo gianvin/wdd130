@@ -144,6 +144,10 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
+img {
+  width: 100px;
+  height: 200px;
+}
 .sm-page3 {
   grid-area: page3;
   background-color: #ccc;
@@ -176,4 +180,7 @@ p {
 footer {
   background-color: steelblue;
   color: white;
+}
+h3 {
+
 }
