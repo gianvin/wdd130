@@ -1,51 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=RocknRoll+One&display=swap');
 
 #content { 
-  max-width : 1600px;
-  margin : 0 auto; }
+  max-width: 1600px;
+  margin: 0 auto; }
 body {
  
-  padding : 4em;
-  font-size : 18px;
-  text-align : center;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
   }
   body {
-  background-color : #fcfbfb;
+  background-color: #fcfbfb;
   }
   header {
-  background-color : rgb(20, 30, 13, 0.7);
+  background-color: rgb(20, 30, 13, 0.7);
   }
   h1 {
     color: rgb(218, 240, 14);
   }
   
   nav a:hover {
-  background-color : black;
+  background-color: black;
   }
   nav a:hover {
-  background-color : black;
-  color : #d9c2a3;
+  background-color: black;
+  color: #d9c2a3;
   }
   .icon {
-  width : 80px;
+  width: 80px;
   }
 
   .logo {
-    width: 80 px;
+    width: 80px;
   }
   nav a {
-  text-align : center;
-  color : #fcfbfb;
-  text-decoration : none;
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
   }
   footer p {
-  font-size : 1.2em;
+  font-size: 1.2em;
   }
   footer p a:hover {
-  text-decoration : underline;
+  text-decoration: underline;
   }
   .home-title {
-    font-family: 'Roboto''RocknrRoll';
+    font-family: 'Roboto','Verdana', 'sans-serif';
     font-size: 2em;
 }
 .msg {
@@ -54,13 +54,13 @@ body {
 } 
 body {
   background-color: #fcfbfb;
-  font-family: 'Roboto''RocknrRoll';
+  font-family: 'RocknrRoll', 'Verdana','sans-serif';
   font-size: 22px;
   margin: 0;
   padding: 0;
 }
 h2 {
-  font-family: 'Roboto''RocknrRoll';
+  font-family: 'Roboto','Verdana', 'sans-serif';
   margin: 0;
 }
 nav a {
@@ -129,7 +129,10 @@ nav {
   grid-row: 1/2;
   margin-top: 100px;
 }
-home-grid{
+#hero.img {
+  width: 100%;
+}
+.home-grid{
  display: grid;
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }

@@ -36,3 +36,27 @@ sup {
     vertical-align: super;
     font-size: smaller;
 }
+home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   }
+image {
+    width: 25%;
+    grid-column: 4/6;
+    grid-row: 1/4
+}
+h2 {
+    width: 25%;
+    grid-column: 4/6;
+    grid-row: 2/3 
+}
+h3 {
+    width: 25%;
+    grid-column: 4/6;
+    grid-row: 3/8;
+}
+footer {
+    width: 25%;
+    grid-column: 4/6;
+    grid-row: 9/10;
+}
