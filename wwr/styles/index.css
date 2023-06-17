@@ -183,6 +183,45 @@ footer {
      justify-content: space-around;
      align-items: center;
 }
+.rivers-grid {
+  display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.msg-purpose {
+  width: 100%;
+  grid-column: 1/10;
+  grid-row: 1/2
+}
+.salmon-card {
+  width: 50%;
+  grid-column: 1/5;
+  grid-row: 3/6
+}
+.msg-salmon {
+  width: 50%;
+  grid-column: 6/10;
+  grid-row: 3/6
+}
+.msg-desogray {
+  width: 50%;
+  grid-column: 1/5;
+  grid-row: 8/11
+}
+.desogray-card{
+  width: 50%;
+  grid-column: 6/10;
+  grid-row: 8/11
+}
+.arizona-card{
+  width: 50%;
+  grid-column: 1/5;
+  grid-row: 12/15
+}
+.msg-desogray {
+  width: 50%;
+  grid-column: 6/10;
+  grid-row: 12/15
+}
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
