@@ -186,7 +186,10 @@ footer {
 #start-of-the-new-page
 .rivers-grid {
   display: grid;
- grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: 20px;
 }
 .msg-purpose {
   width: 100%;
@@ -199,21 +202,29 @@ footer {
   grid-row: 3/6;
 }
 .msg-salmon {
-  width: 50%;
+  width: 450px;
+  height: 200px;
   grid-column: 6/10;
   grid-row: 3/6;
-  background-color: #6f7364;
+  background-color: #b6f40b;
   padding: 35px;
-  box-shadow: 5px 5px 10px #6f7364;
-  
+  box-shadow: 5px 5px 10px #b6f40b;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+  justify-self: end;
+  align-self: flex-end;
 }
 .msg-desogray {
-  width: 50%;
+  width: 450px;
+  height: 200px;
   grid-column: 1/5;
   grid-row: 8/11;
-  background-color: #6f7364;
+  background-color: #b6f40b;
   padding: 35px;
-  box-shadow: 5px 5px 10px #6f7364;
+  box-shadow: 5px 5px 10px #b6f40b;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+  justify-self: end;
   
 }
 .desogray-card{
@@ -227,13 +238,15 @@ footer {
   grid-row: 12/15;
 }
 .msg-arizona {
-  width: 50%;
+  width: 450px;
+  height: 200px;
   grid-column: 6/10;
   grid-row: 12/15;
-  background-color: #6f7364;
+  background-color: #b6f40b;
   padding: 35px;
-  box-shadow: 5px 5px 10px #6f7364;
-
+  box-shadow: 5px 5px 10px #b6f40b;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
   
 }
 @media screen and (max-width: 900px) {
