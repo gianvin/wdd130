@@ -49,7 +49,7 @@ body {
     font-size: 2em;
 }
 .msg {
-  background-color: #6f7364;
+  background-color: #64736c;
   line-height: 1.5em;
 } 
 body {
@@ -186,7 +186,7 @@ footer {
 #start-of-the-new-page
 .rivers-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   justify-items: center;
   grid-gap: 20px;
