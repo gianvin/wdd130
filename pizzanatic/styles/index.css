@@ -69,7 +69,7 @@ nav a {
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
-    margin-top: 50px;
+    margin-top: 100px;
 }  
 .try, .join {
     background-color: #abc5f9;
@@ -130,20 +130,20 @@ nav {
 .card-img, .dine{
     width: 300px;
     height: 200px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .dine-card {
     grid-column: 1/4;
-    grid-row: 2/4;
+    grid-row: 2/3;
 }
 .deliver-card {
     grid-column: 6/9;
-    grid-row: 2/4;
+    grid-row: 2/3;
 } 
 .pizza-img {
     width: 500px;
     grid-column: 2/9;
-    grid-row: 4/6;
+    grid-row: 4/5;
 } 
 
 .msg {
@@ -152,13 +152,13 @@ nav {
     grid-column: 3/8;
     grid-row: 6/7;
     margin-top: 50px;
-    box-shadow: 5px 5px 10px #e6f46e;
-  } 
+    box-shadow: 2px 2px 5px #e6f46e;
+} 
 
-  footer {
+footer {
     background-color: rgba(212, 189, 248, 0.7);
     padding: 25px 50px;
-    margin-top: 25px; 
+    margin-top: 200px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
