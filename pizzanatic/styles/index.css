@@ -27,6 +27,11 @@ nav a:hover {
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+  }   
 nav a {
     text-align: center;
     color: #f24e34;
@@ -89,7 +94,7 @@ nav a {
     opacity: .6;
     transform: scale(1.1);
 }
-main section img {
+.main-section-img {
     box-sizing: border-box;
 }
 header {
@@ -163,6 +168,80 @@ footer {
     justify-content: space-around;
     align-items: center;
   }
+
+ #start-of-the-new-page
+ .about-us.html {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    justify-items: center;
+    grid-gap: 20px;
+ }
+ .msg-trivia {
+    grid-column: 1;
+    grid-row: 2;
+ }
+ .origin-card {
+    width: 50%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+ }
+ .msg-origin {
+    width: 250px;
+    height: 150px;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #7505f6;
+    padding: 35px;
+    box-shadow: 1px 1px 3px #7505f6;
+    overflow-x: hidden; /* Hide horizontal scrollbar */;
+    overflow-y: scroll; /* Add vertical scrollbar */;
+ }
+ .america-card {
+    width: 50%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+ }
+ .msg-america {
+    width: 250px;
+    height: 150px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: #7505f6;
+    padding: 35px;
+    box-shadow: 1px 1px 3px #7505f6;
+    overflow-x: hidden; /* Hide horizontal scrollbar */;
+    overflow-y: scroll; /* Add vertical scrollbar */;
+ }
+ .philippines-card {
+    width: 50%;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+ }
+ .msg-philippines {
+    width: 250px;
+    height: 150px;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: #7505f6;
+    padding: 35px;
+    box-shadow: 1px 1px 3px #7505f6;
+    overflow-x: hidden; /* Hide horizontal scrollbar */;
+    overflow-y: scroll; /* Add vertical scrollbar */;
+ }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
