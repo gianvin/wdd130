@@ -170,7 +170,7 @@ footer {
   }
 
  #start-of-the-new-page
- .about-us.html {
+ .about-us-grid {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -179,7 +179,7 @@ footer {
  }
  .msg-trivia {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 1;
  }
  .origin-card {
     width: 50%;
@@ -241,7 +241,92 @@ footer {
     overflow-x: hidden; /* Hide horizontal scrollbar */;
     overflow-y: scroll; /* Add vertical scrollbar */;
  }
-
+ #start-of-the-new-page
+ .pizza-and-more-grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    justify-items: center;
+    grid-gap: 20px;
+ }
+ .msg-menu {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+ }
+ .pizza-card {
+    width: 50%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+ }
+ .slideshow-container {
+    width: 50%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+ }
+ .msg-pizza {
+    width: 250px;
+    height: 150px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #7505f6;
+    padding: 35px;
+    box-shadow: 1px 1px 3px #7505f6;
+    overflow-x: hidden; /* Hide horizontal scrollbar */;
+    overflow-y: scroll; /* Add vertical scrollbar */;
+ }
+ .chicken-card {
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4; 
+ }
+ .msg-chicken1 {
+    width: 50%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #7505f6;
+    padding: 35px;
+    box-shadow: 1px 1px 3px #7505f6;
+    overflow-x: hidden; /* Hide horizontal scrollbar */;
+    overflow-y: scroll; /* Add vertical scrollbar */;
+ }
+ .msg-chicken2 {
+    width: 50%;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #7505f6;
+    padding: 35px;
+    box-shadow: 1px 1px 3px #7505f6;
+    overflow-x: hidden; /* Hide horizontal scrollbar */;
+    overflow-y: scroll; /* Add vertical scrollbar */;
+ }
+ .drinks-card {
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5; 
+ }
+ .msg-drinks {
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6; 
+ }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
