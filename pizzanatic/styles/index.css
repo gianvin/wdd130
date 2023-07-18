@@ -150,14 +150,14 @@ nav {
 .pizza-img {
     width: 100%;
     grid-column: 2/9;
-    grid-row: 4/5;
+    grid-row: 4/7;
 } 
 
 .msg {
     background-color: #78f57f;
     padding: 35px;
     grid-column: 3/8;
-    grid-row: 6/7;
+    grid-row: 8/10;
     margin-top: 50px;
     box-shadow: 2px 2px 5px #e6f46e;
 } 
@@ -234,6 +234,7 @@ footer {
  .pizza-and-more-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: flex-end;
  }
  .msg-menu {
     grid-column: 1;
@@ -245,10 +246,15 @@ footer {
     grid-column: 1/4;
     grid-row: 2/3;
  }
+ .pizza-card {
+    width: 50%;
+    grid-column: 2/4;
+    grid-row: 2/2
+ }
  .msg-pizza {
     width: 250px;
     height: 150px;
-    grid-column-start: 7/10;
+    grid-column: 7/10;
     grid-row: 2/3;
     background-color: #7505f6;
     padding: 35px;
@@ -257,12 +263,13 @@ footer {
     overflow-y: scroll; /* Add vertical scrollbar */;
  }
  .chicken-card {
-    width: 200px;
+    width: 100%;
     grid-column: 1/10;
     grid-row: 4/5;
  }
  .msg-chicken1 {
-    width: 50%;
+    width: 250px;
+    height: 150px;
     grid-column: 1/4;
     grid-row: 6/7;
     background-color: #7505f6;
@@ -272,7 +279,8 @@ footer {
     overflow-y: scroll; /* Add vertical scrollbar */;
  }
  .msg-chicken2 {
-    width: 50%;
+    width: 250px;
+    height: 150px;
     grid-column: 7/10;
     grid-row: 6/7;
     background-color: #7505f6;
@@ -283,7 +291,8 @@ footer {
  }
  .drinks-card {
     width: 100%;
-    grid-row: 8/9
+    grid-column: 1/10;
+    grid-row: 8/9;
  }
  .msg-drinks {
     width: 100%;
