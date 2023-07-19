@@ -172,24 +172,23 @@ footer {
   }
 
  #start-of-the-new-page
- .about-us-grid {
+ main.about-us-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
  }
  .msg-trivia {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 1/2;
  }
  .origin-card {
-    width: 50%;
-    grid-column: 1/4;
-    grid-row: 2/4;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
  }
  .msg-origin {
-    width: 250px;
-    height: 150px;
-    grid-column: 7/10;
-    grid-row: 2/4;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
     background-color: #7505f6;
     padding: 35px;
     box-shadow: 1px 1px 3px #7505f6;
@@ -197,15 +196,12 @@ footer {
     overflow-y: scroll; /* Add vertical scrollbar */;
  }
  .america-card {
-    width: 50%;
-    grid-column: 1/4;
-    grid-row: 5/7;
+    grid-column: 1/2;
+    grid-row: 3/4;
  }
  .msg-america {
-    width: 250px;
-    height: 150px;
-    grid-column: 1/4;
-    grid-row: 8/10;
+    grid-column: 1/2;
+    grid-row: 4/5;
     background-color: #7505f6;
     padding: 35px;
     box-shadow: 1px 1px 3px #7505f6;
@@ -213,17 +209,12 @@ footer {
     overflow-y: scroll; /* Add vertical scrollbar */;
  }
  .philippines-card {
-    width: 50%;
-    grid-column: 7/10;
-    grid-row: 8/10;
+    grid-column: 2/3;
+    grid-row: 3/4;
  }
  .msg-philippines {
-    width: 250px;
-    height: 150px;
-    grid-column-start: 4;
-    grid-column-end: 6;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-column: 2/3;
+    grid-row: 4/5;
     background-color: #7505f6;
     padding: 35px;
     box-shadow: 1px 1px 3px #7505f6;
